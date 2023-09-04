@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.body1 {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(images/bg5.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginp {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(images/bg5.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 400px;
+    min-height: 400px;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    padding: 40px 30px;
+}
+
+.container .login-text {
+    color: #111;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    text-transform: capitalize;
+}
+
+.container .login-email .input-group {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+.container .login-email .input-group input {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #e7e7e7;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+}
+
+.container .login-email .input-group input:focus,
+.container .login-email .input-group input:valid {
+    border-color: #fe9b9b;
+}
+
+.container .login-email .input-group .btn {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: #fe9b9b;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #FFF;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.container .login-email .input-group .btn:hover {
+    transform: translateY(-5px);
+    background: #fe9b9b;
+}
+
+.login-register-text {
+    color: #111;
+    font-weight: 600;
+    text-align: center;
+}
+
+.login-register-text a {
+    text-decoration: none;
+    color: #11ff00;
+}
+
+.container-logout {
+    width: 500px;
+    min-height: 200px;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    padding: 40px 30px;
+}
+
+.container-logout .login-email .input-group .btn {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: #a29bfe;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #FFF;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: 20px;
+}
+
+.container-logout .login-email .input-group .btn:hover {
+    transform: translateY(-5px);
+    background: #6c5ce7;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    text-shadow: 1px 1px 0px #fff;
+    background: #eaebec;
+    border: #ccc 1px solid;
+}
+
+table th {
+    padding: 15px 35px;
+    border-left: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    background: #ededed;
+}
+
+table th:first-child {
+    border-left: none;
+}
+
+table tr {
+    text-align: center;
+    padding-left: 20px;
+}
+
+table td:first-child {
+    text-align: left;
+    padding-left: 20px;
+    border-left: 0;
+}
+
+table td {
+    padding: 15px 35px;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+    background: #fafafa;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+    background: -moz-linear-gradient(top, #fbfbfb, #fafafa);
+}
+
+table tr:last-child td {
+    border-bottom: 0;
+}
+
+table tr:last-child td:first-child {
+    -moz-border-radius-bottomleft: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+table tr:last-child td:last-child {
+    -moz-border-radius-bottomright: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+table tr:hover td {
+    background: #f2f2f2;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+    background: -moz-linear-gradient(top, #f2f2f2, #f0f0f0);
+}
+
+
+@media (max-width: 430px) {
+    .container {
+        width: 300px;
+    }
+}

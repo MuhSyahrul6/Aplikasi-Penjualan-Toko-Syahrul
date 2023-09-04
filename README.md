@@ -1,4 +1,4 @@
 # Aplikasi-Penjualan-Toko-Syahrul
 
-<a>Username : Syahrul</a>
-<a>Password : syahrul123</a>
+<p>Username : Syahrul</p>
+<p>Password : syahrul123</p>
